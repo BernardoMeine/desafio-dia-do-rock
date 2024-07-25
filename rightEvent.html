@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveEvent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="avatar-bar">
+    <img src="images/avatar.png" alt="Avatar do usuário" class="avatar">
+    <a href="index.html">
+      <img src="images/Search.png" alt="Ícone 1" class="icon">
+    </a>
+    <img src="images/Shape.png" alt="Ícone 2" class="icon">
+    <a href="newEvent.html">
+      <img src="images/Add.png" alt="Ícone 3" class="icon">
+    </a>
+  </div>
+  <div class="confirmEventSidebar">
+
+    <img src="images/OkSign.png" alt="Avatar do usuário" class="avatar">
+
+    <h1>Obrigado pelo envio!</h1>
+
+    <p> Seu evento será avaliado pela nossa equipe e você receberá um E-mail em breve com o resultado da nossa aprovação</p>
+
+    <button type="button" onclick="redirectToRightEvent()">Fechar</button>
+  </div>
+  <div class="background">
+    <!-- Conteúdo principal -->
+  </div>
+
+  <script>
+    function redirectToRightEvent() {
+      window.location.href = "newEvent.html";
+    }
+  </script>
+</body>
+</html>

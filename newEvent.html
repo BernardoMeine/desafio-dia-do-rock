@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveEvent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="avatar-bar">
+    <img src="images/avatar.png" alt="Avatar do usuário" class="avatar">
+    <a href="index.html">
+      <img src="images/Search.png" alt="Ícone 1" class="icon">
+    </a>
+    <img src="images/Shape.png" alt="Ícone 2" class="icon">
+    <a href="newEvent.html">
+      <img src="images/Add.png" alt="Ícone 3" class="icon">
+    </a>
+  </div>
+  <div class="newEventSidebar">
+    <label for="create-event">Banda</label>
+    <input type="text" id="create-event" placeholder="Insira o nome da banda">
+  
+    <label for="create-event">Data</label>
+    <input type="date" id="create-event" placeholder="">
+  
+    <label for="create-event">Local</label>
+    <input type="place" id="create-event" placeholder="Insira o local do evento">
+  
+    <div class="button-container">
+      <button type="button" onclick="redirectToRightEvent()">Salvar Evento</button>
+      <a href="/wrongEvent.html">Preciso de ajuda</a>
+    </div>
+  </div>
+  <div class="background">
+    <!-- Conteúdo principal -->
+  </div>
+
+  <script>
+    function redirectToRightEvent() {
+      window.location.href = "rightEvent.html";
+    }
+  </script>
+</body>
+</html>
