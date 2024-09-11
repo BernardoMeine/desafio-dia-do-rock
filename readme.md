@@ -17,7 +17,7 @@ Desenvolvimento de um layout completo para de uma aplicação para visualizaçã
 ## ⚙️ Tecnologias
 * HTML
 * CSS
-* JS (um pouco)
+* JS
 
 ## 🥋 Skills Desenvolvidas
 * Comunicação
